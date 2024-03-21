@@ -37,7 +37,9 @@ pub use crate::{
         ConvertableIndex, Frame2RtConverter, Scan2ImConverter, Tof2MzConverter,
     },
     errors::*,
-    file_readers::FileReader,
+    file_readers::{
+        *
+    },
     frames::{Frame, FrameType},
     precursors::{Precursor, QuadrupoleEvent},
     spectra::Spectrum,

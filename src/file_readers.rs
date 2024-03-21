@@ -18,7 +18,9 @@ use {
 
 pub use file_formats::FileFormatError;
 
-use self::frame_readers::tdf_reader::TDFReader;
+pub use self::frame_readers::tdf_reader::TDFReader;
+pub use self::common::sql_reader::*;
+
 
 /// A reader to read [frames](crate::Frame) and [spectra](crate::Spectrum).
 pub struct FileReader {

@@ -15,8 +15,8 @@ keywords = ["MS", "LC-TIMS-TOF", "PASEF"]
 
 [dependencies]
 byteorder = "1.4.3"
-zstd = "0.12.3"
-rusqlite = { version = "0.29.0", features = ["bundled"] }
+zstd = "0.13.0"
+rusqlite = { version = "0.31.0", features = ["bundled"] }
 rayon = "1.5"
 linreg = "0.2.0"
 bytemuck = "1.13.1"
